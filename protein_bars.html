@@ -11,6 +11,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>MANLYMEALS</title>
   <link href="images/#" rel="shortcut icon">
+	<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Alfa+Slab+One' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link href="css/stylesheet.css" rel="stylesheet" type="text/css">
 </head>
@@ -18,103 +21,103 @@
 <body>
 
 <header>
-	<!--Pattern HTML-->
-	<div id="pattern" class="pattern">
-	  <!--Begin Pattern HTML-->
-	  <a href="#menu" class="menu-link">MENU</a>
-	  <nav id="menu" class="menu" role="navigation">
-	    <ul class="level-1">
-	      <!--Parent #1-->
-				<li class="has-subnav">
-	        <a href="#">RECIPES</a>
-	        <ul class="level-2">
-	          <li class="has-subnav">
-	            <a href="#">1</a>
-	        </ul>
-	      </li>
+	<!--NAVIGATION-->
+	<div class="navbar navbar-inverse navbar-static-top" role="navigation">
 
-	      <!--Parent #2-->
-				<li class="has-subnav">
-	        <a href="#">COMMUNITY</a>
-	        <ul class="level-2">
-	          <li class="has-subnav">
-	            <a href="#">1</a>
-	        </ul>
-	      </li>
+	    <div class="navbar-header">
+	        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+	        	<span class="sr-only">Toggle navigation</span>
+						<img class="burger_nav" src="images/burger_icon.png" alt="Navigation" width="40em">
+	        </button>
+					<h1><a href="index.html" alt="home">MANLYMEALS</a></h1>
+	    </div>
 
-	      <!--Parent #3-->
-	      <li class="has-subnav">
-	        <a href="#">ARTICLES</a>
-	        <ul class="level-2">
-	          <li class="has-subnav">
-	            <a href="#">1</a>
-	        </ul>
-	      </li>
+	    <div class="collapse navbar-collapse navbar-ex1-collapse">
 
-	    </ul>
-	  </nav>
+					<div class="nav col-xs-12 col-sm-3 col-md-3 pull-right">
+						<form class="navbar-search" role="search">
+							<div class="input-group">
+								<input type="text" class="form-control search-bar" placeholder="Search" name="srch-term" id="srch-term">
+								<div class="input-group-btn">
+									<button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+								</div>
+							</div>
+						</form>
+					</div>
+
+	        <ul class="nav navbar-nav">
+	            <li><a href="recipes.html" class="selected">RECIPES</a></li>
+	            <li><a href="#">COMMUNITY</a></li>
+	            <li><a href="#">ARTICLES</a></li>
+	        </ul>
+
+	    </div>
 	</div>
-	<!--End Pattern HTML-->
+	<!--END NAVIGATION-->
 </header>
 
 <main>
 
 	<div class="featured">
 
-		<div class="col-xs-12">
-			<img class="circle col-xs-offset-3 col-xs-6" src="images/protein_bars_thumbnail.jpg" alt="picture os protein packed snack bars">
+		<div>
+			<img src="images/protein_bars.jpg" alt="picture os protein packed snack bars" width="100%">
 		</div>
-		<div class="col-xs-12">
-			<h2>PROTEIN PACKED SNACK BARS</h2>
+		<div class="col-xs-12 recipe">
+			<h2>PROTEIN PACKED<br>SNACK BARS</h2>
 			<p>Rex Turner</p>
+			<h4>SHARE THIS RECIPE!</h4>
+			<img src="images/facebook_icon.png" alt="post to Facebook" width="50em">
+			<img src="images/twitter_icon.png" alt="share with Twitter" width="50em">
+			<img src="images/pinterest_icon.png" alt="share on Piterest" width="50em">
 		</div>
 
 	</div>
 
-	<article class="col-xs-12">
+	<h1 class="featured col-xs-12">COOK</h1>
 
-		<h1>COOK</h1>
+	<article class="col-xs-12 col-sm-offset-1 col-sm-5">
 
 	<div>
 		<h2>Ingredients</h2>
-		<ul>
-			<li>1 cup old-fashioned rolled oats</li>
-			<li>1/2 cup quick oats</li>
-			<li>3 scoops chocolate whey protein powder</li>
-			<li>1/2 cup organic brown rice crisps cereal</li>
-			<li>1/4 cup honey</li>
-			<li>1/3 cup peanut butter</li>
-			<li>1 teaspoon vanilla extract</li>
-			<li>1-2 tablespoon non-dairy chocolate chips</li>
+		<ul class="list-unstyled ingredient_list">
+			<li><img class="ingredient_icon" src="images/ingredient.png" alt="ingredient" width="40em"><p>1 cup old-fashioned rolled oats</p></li>
+			<li><img class="ingredient_icon" src="images/ingredient.png" alt="ingredient" width="40em"><p>1/2 cup quick oats</p></li>
+			<li><img class="ingredient_icon" src="images/ingredient.png" alt="ingredient" width="40em"><p>3 scoops chocolate whey protein powder</p></li>
+			<li><img class="ingredient_icon" src="images/ingredient.png" alt="ingredient" width="40em"><p>1/2 cup organic brown rice crisps cereal</p></li>
+			<li><img class="ingredient_icon" src="images/ingredient.png" alt="ingredient" width="40em"><p>1/4 cup honey</p></li>
+			<li><img class="ingredient_icon" src="images/ingredient.png" alt="ingredient" width="40em"><p>1/3 cup peanut butter</p></li>
+			<li><img class="ingredient_icon" src="images/ingredient.png" alt="ingredient" width="40em"><p>1 teaspoon vanilla extract</p></li>
+			<li><img class="ingredient_icon" src="images/ingredient.png" alt="ingredient" width="40em"><p>1-2 tablespoon non-dairy chocolate chips</p></li>
 		</ul>
 	</div>
 	</article>
 
-	<article class="col-xs-12">
+	<article class="col-xs-12 col-sm-offest-1 col-sm-5">
 
 	<div>
 		<h2>Preperation</h2>
-		<ul>
-			<li>Line a 9×5” loaf pan with parchment paper or lightly grease with cooking spray.</li>
-			<li>Place rolled oats in food processor and pulse until oats are a flour consistency.</li>
-			<li>In a medium bowl, mix processed rolled oats with quick oats, protein powder, and cereal.</li>
-			<li>In a small pan over medium heat, stir honey and peanut butter until melted and combined. Remove from heat and stir in vanilla extract. Pour peanut butter mixture over oats. Stir well.</li>
-			<li>Using hands, press mixture into prepared loaf pan.</li>
-			<li>In microwave, melt chocolate chips for 1 minute, and then 30-second intervals stirring in between, until fully melted. Use a fork to drizzle chocolate over bars.</li>
-			<li>Let cool in refrigerator for 30 minutes before slicing into 12 bars.</li>
+		<ul class="list-unstyled prep_list">
+			<li><img class="prep_icon" src="images/prep.png" alt="preparation" width="40em"><p>Line a 9×5” loaf pan with parchment paper or lightly grease with cooking spray.</p></li>
+			<li><img class="prep_icon" src="images/prep.png" alt="preparation" width="40em"><p>Place rolled oats in food processor and pulse until oats are a flour consistency.</p></li>
+			<li><img class="prep_icon" src="images/prep.png" alt="preparation" width="40em"><p>In a medium bowl, mix processed rolled oats with quick oats, protein powder, and cereal.</p></li>
+			<li><img class="prep_icon" src="images/prep.png" alt="preparation" width="40em"><p>In a small pan over medium heat, stir honey and peanut butter until melted and combined. Remove from heat and stir in vanilla extract. Pour peanut butter mixture over oats. Stir well.</p></li>
+			<li><img class="prep_icon" src="images/prep.png" alt="preparation" width="40em"><p>Using hands, press mixture into prepared loaf pan.</p></li>
+			<li><img class="prep_icon" src="images/prep.png" alt="preparation" width="40em"><p>In microwave, melt chocolate chips for 1 minute, and then 30-second intervals stirring in between, until fully melted. Use a fork to drizzle chocolate over bars.</p></li>
+			<li><img class="prep_icon" src="images/prep.png" alt="preparation" width="40em"><p>Let cool in refrigerator for 30 minutes before slicing into 12 bars.</p></li>
 		</ul>
 	</div>
 	</article>
 
 </main>
 
-<footer>
-	<img src="images/#" alt="#">
-	<img src="images/#" alt="#">
-	<img src="images/#" alt="#">
+<footer class="col-xs-12">
+	<a href="#"><img src="images/instagram_icon.png" alt="link to Instagram page" width="40em"></a>
+	<a href="#"><img src="images/facebook_icon.png" alt="link to Facebook page" width="40em"></a>
+	<a href="#"><img src="images/twitter_icon.png" alt="link to Twitter page" width="40em"></a>
 	<ul class="list-unstyled">
-		<li><a href="#"><h5>ABOUT US</h5></a></li>
-		<li><a href="#"><h5>HELP</h5></a></li>
+		<li><h5><a href="#">ABOUT US</a></h5></li>
+		<li><h5><a href="#">HELP</a></h5></li>
 	</ul>
 	<h6>Copywrite 2015 ManlyMeals.com All rights reserved.</h6>
 </footer>
@@ -122,7 +125,6 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-<script src="menu.js"></script>
 <script src="js/bootstrap.min.js"></script>
 
 </body>
