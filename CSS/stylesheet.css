@@ -6,6 +6,10 @@ body {
 
 }
 
+.image img{
+  width: 100%;
+}
+
 .navbar {
   position: fixed;
   width: 100%;
@@ -284,6 +288,11 @@ h6 {
 
 .recipe {
   padding-bottom: 2em;
+}
+
+.recipe_images img{
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 footer {
